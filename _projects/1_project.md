@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Model, Color and License Plate Recognition System Using Cameras Placed in Moving Vehicles
-description: 
+description: empty
 img: assets/img/CarCamBG.jpg
 importance: 1
 category: work
@@ -33,11 +33,6 @@ The project is a security-focused system that uses an IP camera mounted on a veh
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/CarCamFull2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -46,7 +41,3 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
 <div class="caption">
     This image can also have a caption. It's like magic.
 </div>
-
-
-
-{% endraw %}

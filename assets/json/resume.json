@@ -11,7 +11,7 @@
       "name": "aselsan",
       "position": "Research and Design Engineer",
       "url": "https://www.aselsan.com/en",
-      "startDate": "25-01-2021",
+      "startDate": "2021-01-25",
       "endDate": "",
       "summary": "Developed signal processing algorithms and deep learning models as a contribution to a product based on Distributed Acoustic Sensing technology that is used for pipeline monitoring, railroad and facility security. The algorithms operate in real-time to observe and track locations via conventional fiber optic lines.",
       "highlights": [
@@ -49,14 +49,7 @@
       "score": 3.68
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
+  "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],

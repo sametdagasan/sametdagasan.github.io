@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Project 5
+title: Project 1
 description: Model, Color and License Plate Recognition System Using Cameras Placed in Moving Vehicles
 img: assets/img/CarCamBG.jpg
-importance: 3
-category: Academic
+importance: 1
+category: Work
 related_publications: 
 ---
 

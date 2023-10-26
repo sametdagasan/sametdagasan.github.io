@@ -4,7 +4,7 @@ title: no_pro 4
 description: Model, Color and License Plate Recognition System Using Cameras Placed in Moving Vehicles
 img: assets/img/CarCamBG.jpg
 importance: 1
-category: Work
+category: 
 related_publications: 
 ---
 

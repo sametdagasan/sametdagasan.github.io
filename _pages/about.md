@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research and Design Engineer at <a href='https://www.aselsan.com/en'>aselsan</a>.
 
 profile:
   align: right

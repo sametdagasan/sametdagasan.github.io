@@ -1,10 +1,9 @@
 ---
 layout: page
 title: project 3
-description: Activity Classification in Distributed Acoustic
-Sensing Systems
+description: Activity Classification in Distributed Acoustic Sensing Systems
 img: assets/img/waterfall.png
-importance: 3
+importance: 2
 category: Work
 giscus_comments: 
 ---

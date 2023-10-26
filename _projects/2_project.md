@@ -1,12 +1,12 @@
 ---
 layout: page
-title: project 1
+title: project 3
 description: Activity Classification in Distributed Acoustic
 Sensing Systems
 img: assets/img/waterfall.png
 importance: 3
 category: Work
-giscus_comments: true
+giscus_comments: 
 ---
 
 An exploration of Fiber optic-based DAS (distributed acoustic sensing) systems for intrusion detection and classification across extended distances of up to 50 kilometers, all at an affordable cost is presented. Our work focuses on solving the activity classification challenge within fiber optic DAS systems using a machine learning approach. We employ various neural network architectures, each designed with specific inductive biases tailored to the task at hand. The models we evaluate include CNN7 (a 7-layer convolutional neural network), CNN9 (a 9-layer convolutional neural network), CRNN (convolutional recurrent network), and ViT (vision transformer). To feed these models, we use mel-spectrogram features as input images and present the test results for each of these architectures. Our results indicate that CNN9, despite being a deeper version of CNN7 with fewer parameters, outperforms the other three architectures in terms of the weighted f1-score.

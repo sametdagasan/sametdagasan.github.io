@@ -43,7 +43,7 @@ t-SNE is a statistical technique for visualizing data with many dimensions by ma
 
 Training set accuracy, validation set accuracy (smoothed), training loss, and validation loss (smoothed) during training helps us to choose the model that we are going to use.
 
-<div class="row justify-content-sm-center">
+<div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.html path="assets/img/learning.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>

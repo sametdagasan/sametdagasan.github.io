@@ -4,34 +4,18 @@
     "label": "Research and Design Engineer",
     "image": "",
     "email": "sametdagasan@gmail.com",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "phone": "+90 (537) 361-3665"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "aselsan",
+      "position": "Research and Design Engineer",
+      "url": "https://www.aselsan.com/en",
+      "startDate": "25-01-2021",
+      "endDate": "",
+      "summary": "Developed signal processing algorithms and deep learning models as a contribution to a product based on Distributed Acoustic Sensing technology that is used for pipeline monitoring, railroad and facility security. The algorithms operate in real-time to observe and track locations via conventional fiber optic lines.",
       "highlights": [
-        "Relativity"
+        "Signal Processing, Machine Learning"
       ]
     }
   ],
@@ -41,9 +25,27 @@
       "institution": "Bilkent University, Ankara, Turkey",
       "url": "https://w3.bilkent.edu.tr/bilkent/",
       "area": "Electrical and Electronics Engineer",
-      "studyType": "B.S.",
-      "startDate": "September 2012",
-      "endDate": "June 2017",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2021-02-02",
+      "endDate": "",
+      "score": 3.36
+    },
+    {
+      "institution": "Bilkent University, Ankara, Turkey",
+      "url": "https://w3.bilkent.edu.tr/bilkent/",
+      "area": "Electrical and Electronics Engineer",
+      "studyType": "Master of Science",
+      "startDate": "2017-09-26",
+      "endDate": "2020-12-14",
+      "score": 3.57
+    },
+    {
+      "institution": "Bilkent University, Ankara, Turkey",
+      "url": "https://w3.bilkent.edu.tr/bilkent/",
+      "area": "Electrical and Electronics Engineer",
+      "studyType": "Bachelor of Science",
+      "startDate": "2012-09-16",
+      "endDate": "2017-06-27",
       "score": 3.68
     }
   ],
@@ -60,7 +62,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Turkish",
       "fluency": "Native speaker"
     },
     {

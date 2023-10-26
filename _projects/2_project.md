@@ -21,7 +21,7 @@ An exploration of Fiber optic-based DAS (distributed acoustic sensing) systems f
 
 The Mel scale is designed to replicate the way the human ear processes sound, as studies have revealed that our perception of frequencies is not linear. In our examination of the data, we observed that the distribution of frequencies related to the activities in the DAS system is also non-linear. Consequently, rather than utilizing traditional spectrograms, we opted to employ log-mel energies, which represent the logarithmic values of the mel spectrogram.
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/spectrogram.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -43,8 +43,8 @@ t-SNE is a statistical technique for visualizing data with many dimensions by ma
 
 Training set accuracy, validation set accuracy (smoothed), training loss, and validation loss (smoothed) during training helps us to choose the model that we are going to use.
 
-<div class="row">
-    <div class="col-sm-8 mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/learning.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

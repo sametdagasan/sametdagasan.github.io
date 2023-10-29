@@ -1,80 +1,68 @@
 ---
 layout: page
-title: no_pro 2
-description: a project with no image
-img:
-importance: 
-category: 
+title: project 3
+description: Activity Classification in Distributed Acoustic Sensing Systems
+img: assets/img/waterfall.png
+importance: 2
+category: Work
+giscus_comments: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We developed two methods for train detection and tracking in fiber optic DAS systems, categorized into waterfall-based and spectrogram-based approaches. The former uses classical computer vision techniques, while the latter employs image processing techniques. Additionally, a neural network-based learning method is proposed. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/wf.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Waterfall image of a railroad for 11 minutes. 
 </div>
+
+
+Physical factors, such as temperature and strain, have a notable impact on the acquired signal in the system. In a typical DAS system, the maximum fiber optic cable length is limited to 50 km due to channel attenuation and physical constraints. The system uses a 100 ns pulse, resulting in a 10-meter spatial separation between adjacent channels. Since light travels through fibers at a speed of approximately 2.01 × 10^8 m/s, the system's sampling frequency is 2 kHz. Waterfall images are generated with signal processing using raw data obtained by sensor. 
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/algorithm.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Components of the waterfall-based detection and tracking algorithm.
+</div>
+
+Algorithm comprises of 3 modules: Bounding box detection, boundary detection and tracking. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mett.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Computation of gradients and line fitting for train trace.
+</div>
+
+In the boundary detection module, the start and end points of train traces are detected using patches found in the bounding box detection module.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/spectrogram.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Log mel energy of a train passing.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+ spectrogram provides the spectral information necessary to tell apart two signals that may appear similar because their main frequencies are similar, like low frequency noises. We use this representation to detect and track the train traces.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/spectrogram.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Preprocessing results of direct segmentation.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The purpose of the preprocessing is to mask noises and indicate railroad tracks. Preprocessing comprises of 4 components. We need to normalize the data through all the channels in order to compensate for the inconsistencies caused by the sensor.

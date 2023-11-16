@@ -57,7 +57,7 @@ In the boundary detection module, the start and end points of train traces are d
  spectrogram provides the spectral information necessary to tell apart two signals that may appear similar because their main frequencies are similar, like low frequency noises. We use this representation to detect and track the train traces.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0"  style="margin: 0 auto; text-align: center;">
         {% include figure.html path="assets/img/spectrogram.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

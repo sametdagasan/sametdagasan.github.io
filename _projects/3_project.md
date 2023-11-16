@@ -3,7 +3,7 @@ layout: page
 title: Model, Color and License Plate Recognition System Using Cameras Placed in Moving Vehicles
 description: 
 img: assets/img/CarCamBG.jpg
-importance: 1
+importance: 4
 category: Work
 related_publications: 
 ---

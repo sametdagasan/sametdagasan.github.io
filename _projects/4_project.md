@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 3
-description: Activity Classification in Distributed Acoustic Sensing Systems
-img: assets/img/waterfall.png
+title: project 4
+description: Train Detection and Tracking in Distributed Acoustic Sensing Systems
+img: assets/img/waterfall.jpg
 importance: 2
 category: Work
 giscus_comments: 

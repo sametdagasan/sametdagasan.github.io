@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: Fiber Optic Cable Termination and Signal Loss Detection in DAS Systems
+title: Fiber Optic Cable Termination and Signal Loss Detection in DAS Systems
+description: 
 img: 
 importance: 2
 category: Work

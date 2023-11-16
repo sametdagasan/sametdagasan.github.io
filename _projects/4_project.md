@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: Train Detection and Tracking in Distributed Acoustic Sensing Systems
-img: assets/img/waterfall.jpg
+title: Train Detection and Tracking in Distributed Acoustic Sensing Systems
+description: 
+img: assets/img/wf.jpg
 importance: 2
 category: Work
 giscus_comments: 

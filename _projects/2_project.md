@@ -3,7 +3,7 @@ layout: page
 title: Activity Classification in DAS Systems
 description: 
 img: assets/img/waterfall_bg.png
-importance: 2
+importance: 1
 category: Work
 giscus_comments: 
 ---

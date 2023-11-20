@@ -2,7 +2,7 @@
 layout: page
 title: Fiber Optic Cable Termination and Signal Loss Detection in DAS Systems
 description: 
-img: raw_data_yeni_bg.png
+img: assets/img/raw_data_yeni_bg.png
 importance: 1
 category: Work
 giscus_comments: 

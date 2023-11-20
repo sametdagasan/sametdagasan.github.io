@@ -4,7 +4,7 @@ title: Model, Color and License Plate Recognition System Using Cameras Placed in
 description: 
 img: assets/img/CarCamBG.jpg
 importance: 4
-category: Work
+category: Academic
 related_publications: 
 ---
 

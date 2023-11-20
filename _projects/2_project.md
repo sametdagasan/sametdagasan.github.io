@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Activity Classification in Distributed Acoustic Sensing Systems
+title: Activity Classification in DAS Systems
 description: 
-img: assets/img/waterfall.png
+img: assets/img/waterfall_bg.png
 importance: 2
 category: Work
 giscus_comments: 

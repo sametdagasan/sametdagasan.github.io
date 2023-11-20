@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Train Detection and Tracking in Distributed Acoustic Sensing Systems
+title: Train Detection and Tracking in DAS Systems
 description: 
-img: assets/img/wf.jpg
+img: assets/img/wf_bg.jpg
 importance: 3
 category: Work
 giscus_comments: 

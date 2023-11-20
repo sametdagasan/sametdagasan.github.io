@@ -11,6 +11,7 @@
   pages={1-4},
   abstract={Fiber Optic Distributed Acoustic Sensing (DAS) Systems use standard telecommunication fibers to detect acoustic vibrations up to 50 kms along the cable. In this paper we propose algorithms to detect fiber optic cable termination points and optical signal losses using DAS data. Proposed algorithms add traditional Optical Time-Domain Reflectometer (OTDR) measurement functionality to the DAS systems. Cable termination detection algorithm models the noise data in DAS signal that consists of electronic noise [e.g. Analog-to-Digital Converter (ADC) noises] and optical laser reflection noise. The cable termination detection algorithm analyzes noise statistics of the sensor data and finds the location where optic noise is no longer present. Signal loss detection algorithm first eliminates the environmental acoustic noise from the DAS signal; then, change point detection algorithm is applied to detect locations where significant signal loss occurs. Proposed algorithms are tested in various DAS installations in Turkey. Predicted cable termination and signal loss locations agree with OTDR measurements.},
   keywords={},
+  url={https://ieeexplore.ieee.org/abstract/document/9864838},
   doi={10.1109/SIU55565.2022.9864838},
   ISSN={2165-0608},
   month={May}}
@@ -19,6 +20,8 @@
   title={Resilient Mobile Multi-Target Surveillance Using Multi-Hop Autonomous UAV Networks for Extended Lifetime},
   author={Da{\u{g}}a{\c{s}}an, Abdulsamet and Kara{\c{s}}an, Ezhan},
   journal={arXiv preprint arXiv:2311.03030},
+  pdf={https://arxiv.org/pdf/2311.03030.pdf},
+  abstract={Cooperative utilization of Unmanned Aerial Vehicles (UAVs) in public and military surveillance applications has attracted significant attention in recent years. Most UAVs are equipped with sensors that have bounded coverage and wireless communication equipment with limited range. Such limitations pose challenging problems to monitor mobile targets. This paper examines fulfilling surveillance objectives to achieve better coverage while building a resilient network between UAVs with an extended lifetime. The multiple target tracking problem is studied by including a relay UAV within the fleet whose trajectory is autonomously calculated in order to achieve a reliable connected network among all UAVs. Optimization problems are formulated for single-hop and multi-hop communications among UAVs. Three heuristic algorithms are proposed for multi-hop communications and their performances are evaluated. A hybrid algorithm, which dynamically switches between single-hop and multi-hop communications is also proposed. The effect of the time horizon considered in the optimization problem is studied. Performance evaluation results show that the trajectories generated for the relay UAV by the hybrid algorithm can achieve network lifetimes that are within 5% of the maximum possible network lifetime which can be obtained if the entire trajectories of all targets were known a priori.},
   year={2023}
 }
 
@@ -26,6 +29,9 @@
  title={Signal loss detection method for distributed acoustic sensing systems},
  author={Dağaşan, Abdulsamet and Akur, Mustafa and Şahinoğlu, Muhammet Emre},
  note={US Patent US20230213673A1}, 
+ url={https://patents.google.com/patent/US20230213376A1/en},
+ abstract={A method that detects the location of undesired levels of signal loss for DAS systems. In the method, raw data is received from a DAS system with dual photodetector. Statistics are obtained from the received raw data, then processed according to the dual photodetector. The obtained statistical data are reconstructed to remove noise and the reconstructed signal is used to form the power statistics of the DAS signal in each channel. The power statistics are expected to be linearly decreasing with the distance from the sensor. A change detection algorithm is developed to detect the possible undesired levels of signal loss and to find the location of the signal loss.
+},
  year={2023},
  month={July},
 selected={true}
@@ -34,6 +40,8 @@ selected={true}
 @misc{patent2,
  title={Frequency response estimation method to compensate for channel differences in distributed acoustic sensing systems},
  author={Akur, Mustafa and Dağaşan, Abdulsamet  and Şahinoğlu, Muhammet Emre},
+ url={https://patents.google.com/patent/US20230213673A1/en},
+ abstract={A frequency response estimation method to compensate for channel differences in distributed acoustic sensing systems include two compensation algorithms, online and offline, and these two compensation algorithms are presented to generate standardized mel-frequency features, as an input to neural networks. By this scheme, the variance of mel-frequency feature space is decreased and normalized among different channels, which enables to use less training data and smaller architectures for classification and anomalous event detection tasks.},
  note={US Patent US20230213676A1}, 
  year={2023},
  month={July}
@@ -42,7 +50,26 @@ selected={true}
 @misc{thesis,
  title={Airborne ground surveillance with multi-hop UAV networks},
  author={Dağaşan, Abdulsamet},
- note={Thesis}, 
+ note={Thesis},
+ abstract={Cooperative utilization of unmanned aerial vehicles (UAVs) in public and military surveillance applications has attracted significant attention in recent years.
+Most UAVs are equipped with sensors that have limited coverage and wireless
+communication equipment with limited range. Such limitations pose challenging
+problems to monitor mobile targets. The thesis examines fulfilling surveillance
+objectives to achieve better coverage while building a reliable network between
+UAVs. Area coverage and cooperative multiple target tracking problems are
+investigated and linear integer programming models are presented for these problems. For the area coverage problem, the optimal placement of UAVs for a given
+area is investigated with varying coverage ranges and the results are discussed.
+Coverage of the map achieved by the UAVs and the maximum possible coverage area are compared under different coverage and communications constraints.
+For the cooperative multiple target tracking, the optimal placement of UAVs to
+monitor mobile targets where their mobility is modeled with the random waypoint mobility model is studied. The multiple target tracking problem is further
+extended by assuming a relay UAV within the fleet whose trajectory is planned
+in order to achieve a reliable connected network among all UAVs. Optimization
+problems are established for single-hop and multi-hop communications. Three algorithms are proposed for multi-hop communications and their performances are
+evaluated. The effect of the time horizon considered in the optimization problem
+is also studied. Performance evaluation results show that the trajectories planned
+for relay UAV by the proposed algorithms generates network topologies that remain connected for more than 90% of the maximum possible duration that the
+UAVs can be connected by an ideal relay.}, 
+url={https://www.proquest.com/docview/2652591015?pq-origsite=gscholar&fromopenview=true},
  year={2020},
  month={December},
  selected={true}

@@ -3,6 +3,7 @@
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+<!--
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
@@ -599,9 +600,12 @@ to display GitHub repositories and user stats on the `/repositories/` page.
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
-
+-->
+<!-- 
 ```html
+-->
 <!-- code for GitHub users -->
+<!-- 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -609,8 +613,9 @@ You may also use the following codes for displaying this in any other pages.
   {% endfor %}
 </div>
 {% endif %}
-
+-->
 <!-- code for GitHub trophies -->
+<!--
 {% if site.repo_trophies.enabled %}
 {% for user in site.data.repositories.github_users %}
   {% if site.data.repositories.github_users.size > 1 %}
@@ -621,8 +626,9 @@ You may also use the following codes for displaying this in any other pages.
   </div>
 {% endfor %}
 {% endif %}
-
+-->
 <!-- code for GitHub repositories -->
+<!--
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
@@ -678,10 +684,12 @@ For more complex issues/bugs or feature requests, please open an issue using the
 
 Our most active contributors are welcome to join the maintainers team.
 If you are interested, please reach out!
+-->
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<!--
 <table>
   <tbody>
     <tr>
@@ -692,7 +700,7 @@ If you are interested, please reach out!
     </tr>
   </tbody>
 </table>
-
+-->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research and Design Engineer at <a href='https://www.aselsan.com/en'>aselsan</a>.
+subtitle: Research and Design Engineer at <a href='https://www.aselsan.com/en'>Aselsan</a>.
 
 profile:
   align: right
